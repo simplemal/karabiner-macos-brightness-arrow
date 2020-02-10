@@ -1,5 +1,5 @@
 {
-  "title": "macOS Brightness with FN and Arrow Keys",
+  "title": "macOS Brightness with Arrow Keys",
   "maintainers": [
     "simplemal"
   ],
@@ -7,7 +7,7 @@
   "import_url": "karabiner://karabiner/assets/complex_modifications/import?url=https://raw.githubusercontent.com/simplemal/karabiner-macos-brightness-arrow/master/fn-arrow-brightness.json",
   "rules": [
     {
-      "description": "FN + Up to Brightness Up",
+      "description": "Ctrl+Alt+Up to Brightness Up",
       "manipulators": [
         {
           "type": "basic",
@@ -15,11 +15,11 @@
             "key_code": "up_arrow",
             "modifiers": {
               "mandatory": [
-                "fn"
+                "left_alt",
+                "left_control"
               ],
               "optional": [
-                "caps_lock",
-                "option"
+                "caps_lock"
               ]
             }
           },
@@ -32,7 +32,7 @@
       ]
     },
     {
-      "description": "FN + Down to Brightness Down",
+      "description": "Ctrl+Alt+Down to Brightness Down",
       "manipulators": [
         {
           "type": "basic",
@@ -40,11 +40,11 @@
             "key_code": "down_arrow",
             "modifiers": {
               "mandatory": [
-                "fn"
+                "left_alt",
+                "left_control"
               ],
               "optional": [
-                "caps_lock",
-                "option"
+                "caps_lock"
               ]
             }
           },
