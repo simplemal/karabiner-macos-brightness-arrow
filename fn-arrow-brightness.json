@@ -1,0 +1,60 @@
+{
+  "title": "macOS Brightness FN+Arrow",
+  "maintainers": [
+    "simplemal"
+  ],
+  "homepage": "https://github.com/simplemal/karabiner-macos-brightness-arrow",
+  "import_url": "karabiner://karabiner/assets/complex_modifications/import?url=https://github.com/simplemal/karabiner-macos-brightness-arrow",
+  "rules": [
+    {
+      "description": "FN + Up to Brightness Up",
+      "manipulators": [
+        {
+          "type": "basic",
+          "from": {
+            "key_code": "up_arrow",
+            "modifiers": {
+              "mandatory": [
+                "fn"
+              ],
+              "optional": [
+                "caps_lock",
+                "option"
+              ]
+            }
+          },
+          "to": [
+            {
+              "key_code": "display_brightness_increment"
+            }
+          ]
+        }
+      ]
+    },
+    {
+      "description": "FN + Down to Page Down",
+      "manipulators": [
+        {
+          "type": "basic",
+          "from": {
+            "key_code": "down_arrow",
+            "modifiers": {
+              "mandatory": [
+                "fn"
+              ],
+              "optional": [
+                "caps_lock",
+                "option"
+              ]
+            }
+          },
+          "to": [
+            {
+              "key_code": "display_brightness_decrement"
+            }
+          ]
+        }
+      ]
+    }
+  ]
+}
