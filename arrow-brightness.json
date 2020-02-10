@@ -4,7 +4,7 @@
     "simplemal"
   ],
   "homepage": "https://github.com/simplemal/karabiner-macos-brightness-arrow",
-  "import_url": "karabiner://karabiner/assets/complex_modifications/import?url=https://raw.githubusercontent.com/simplemal/karabiner-macos-brightness-arrow/master/fn-arrow-brightness.json",
+  "import_url": "karabiner://karabiner/assets/complex_modifications/import?url=https://raw.githubusercontent.com/simplemal/karabiner-macos-brightness-arrow/master/arrow-brightness.json",
   "rules": [
     {
       "description": "Ctrl+Alt+Up to Brightness Up",
